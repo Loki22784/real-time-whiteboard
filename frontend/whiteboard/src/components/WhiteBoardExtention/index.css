@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+.bg{
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0;
+    overflow: hidden;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: centers;
+}
+
+.top{
+    display: flex;
+    padding: 20px;
+}
+
+.but1{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    margin-left: 10px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 585px;
+    border-width: 10px;
+}
+.inn{
+    width: 400px;
+}
+.but2{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 20px;
+}

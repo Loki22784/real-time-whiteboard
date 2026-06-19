@@ -1,0 +1,24 @@
+.bg{
+    margin: 100px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.part1{
+    align-items: start;
+}
+.part21{
+    margin: 20px;
+}
+.he{
+    align-items: center;
+}
+.he2{
+    font-size: 35px;
+}

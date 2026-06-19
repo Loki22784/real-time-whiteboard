@@ -1,0 +1,19 @@
+{
+  "name": "whiteboard-backend",
+  "version": "1.0.0",
+  "description": "this is the backend for mern realtime white board sharing app",
+  "license": "MIT",
+  "author": "lokesh",
+  "type": "commonjs",
+  "main": "(index.js) server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cores": "^0.8.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "socket.io": "^4.8.3"
+  }
+}
