@@ -25,7 +25,9 @@ class WhiteBoard extends Component{
         ctx.lineWidth = 5;
         ctx.lineCap = "round";
         ctx.strokeStyle = "black";
-        this.socket = io("https://real-time-whiteboard-tgia.onrender.com")
+        this.socket = io("https://real-time-whiteboard-tgia.onrender.com",{
+          withCredentials: true
+        })
         this.socket.on("connect", () => {
             console.log("socket id", this.socket.id);
             this.socket.emit("join", roomId)
